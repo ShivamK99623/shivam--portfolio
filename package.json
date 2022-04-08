@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "nodemon": "^2.0.15"
+  },
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This website contain about me ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/ShivamK99623/myResume.git)"
+  },
+  "keywords": [
+    "shivamk99623"
+  ],
+  "author": "Shivam kumar",
+  "license": "ISC"
+}

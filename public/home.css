@@ -1,0 +1,69 @@
+.imgdiv::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    opacity: 0.7;
+    background: url("https://cdn.ucberkeleybootcamp.com/wp-content/uploads/sites/106/2020/07/CDG_blog_post_image_08-850x412.jpg") no-repeat fixed center center/cover;
+    background-color: #602a7c;
+    background-blend-mode :screen;
+}
+.imgdiv{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    justify-content: center;
+    align-items: center;
+}
+.imgdiv img{
+    width: 20%;
+    margin: 0px 10px;
+   
+}
+.paragraph{
+     width: 60%;
+      height: 60%;
+      overflow-y:auto;
+      overflow-x: hidden;
+}
+.paragraph > p{
+     font-size: larger;
+    color: #e5f400
+
+}
+h1{  
+    margin-bottom: 50px;
+    color: aqua;
+}
+@media  (max-width: 670px){
+    .paragraph p{
+        font-size: small;
+    }
+    h1{
+        margin:40px 0px;
+
+        color: aqua;
+        font-size: large;
+    }   
+}
+
+@media (max-width: 505px){
+    .menu{
+        width: 200px;
+        margin: auto;
+        top: -180px;
+        flex-direction:column;
+        align-items: center;
+        transition: 0.4s ;
+
+    }
+    
+    h1{
+        margin-top: 10px;
+    }
+    .imgdiv{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+table {
+    width: 60%;
+    margin: auto;
+    height: 100%;
+    -webkit-print-color-adjust: exact;
+}
+
+tbody {
+     width: 700px;
+}
+
+.container {
+    z-index: -1;
+    margin: 10px auto;
+    width: 700px;
+    height: 900px;
+    position: relative;
+    background-color: greenyellow;
+    overflow: hidden;
+}
+
+.lefttringle {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+    border-top: 104px solid transparent;
+    border-bottom: 106px solid transparent;
+    border-left: 470px solid gray
+}
+
+.righttringle {
+    position: absolute;
+    right: 0px;
+    height: 0px;
+    top: 0px;
+    border-bottom: 146px solid transparent;
+    border-right: 681px solid red;
+}
+
+
+
+#circle {
+    position: absolute;
+    width: 200px;
+    overflow: hidden;
+    height: 200px;
+    border: 4px solid white;
+    border-radius: 100%;
+    top: 80px;
+    left: 120px;
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+#circle img {
+    width: 200px;
+}
+
+.aboutcontainer {
+    overflow: hidden;
+}
+
+.sidenav {
+    position: absolute;
+    height: 100%;
+    top: 162px;
+    left: 0px;
+    padding-top: 83px;
+    border-top: 57px solid transparent;
+    border-right: 251px solid red;
+}
+
+.rightnav {
+    position: absolute;
+    top: 302px;
+    left: 254px;
+}
+.rightnav  h3{
+   background-color: aqua;
+   padding: 2px 0px;
+   margin: 4px 0px;
+}
+.rightnav  p{
+   padding: 4px 0px;
+}
+
+.contact {
+    position: absolute;
+}
+
+.contact h3 {
+    text-align: left;
+    width: 247px;
+    padding-left: 4px;
+    background-color: aliceblue;
+}
+
+.contact p {
+    text-align: left;
+    width: 245px;
+    color: aliceblue;
+    padding: 4px 6px;
+    /* background-color: rgb(50, 138, 215); */
+}
+
+.name {
+    position: absolute;
+    right: 100px;
+    top: 167px;
+}
