@@ -20,5 +20,8 @@
     "shivamk99623"
   ],
   "author": "Shivam kumar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
